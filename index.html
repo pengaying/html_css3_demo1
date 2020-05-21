@@ -34,7 +34,7 @@
             }
         }
 
-        #八卦 {
+        #circle {
             /* border: 1px solid red; */
             width: 400px;
             height: 400px;
@@ -48,7 +48,7 @@
 
         /* 媒体查询 */
         @media(max-width: 500px) {
-            #八卦 {
+            #circle {
                 width: 200px;
                 height: 200px;
 
@@ -62,7 +62,7 @@
         :nth-child(x)  选择第X个子元素,x从一开始
         #id名  可替换写法  [id=id名]
          */
-        #八卦>div:first-child {
+        #circle>div:first-child {
             width: 50%;
             height: 100%;
             position: absolute;
@@ -71,12 +71,12 @@
 
         }
 
-        /* #八卦>div:last-child {
+        /* #circle>div:last-child {
             border: 1px solid blue;
             width: 50%;
         } */
 
-        #八卦>div:nth-child(2) {
+        #circle>div:nth-child(2) {
             width: 50%;
             height: 100%;
             position: absolute;
@@ -84,7 +84,7 @@
             background: white;
         }
 
-        #八卦>div:nth-child(3) {
+        #circle>div:nth-child(3) {
             /* border: 10px solid blue; */
             position: absolute;
             width: 50%;
@@ -96,7 +96,7 @@
 
         }
 
-        #八卦>div:nth-child(4) {
+        #circle>div:nth-child(4) {
             /* border: 10px solid blue; */
             position: absolute;
             width: 50%;
@@ -108,7 +108,7 @@
             background: white;
         }
 
-        #八卦>div:nth-child(5) {
+        #circle>div:nth-child(5) {
             /* border: 10px solid blue; */
             position: absolute;
             width: 10%;
@@ -120,7 +120,7 @@
             background: white;
         }
 
-        #八卦>div:nth-child(6) {
+        #circle>div:nth-child(6) {
             /* border: 10px solid blue; */
             position: absolute;
             width: 10%;
@@ -132,7 +132,7 @@
             background: black;
         }
 
-        [id=八卦-wrapper] {
+        [id=circle-wrapper] {
             height: 100vh;
             /*  viewpoint height   */
             display: flex;
@@ -144,15 +144,15 @@
             /* 元素排列方式  列排列 */
         }
 
-        [id="八卦-描述"] {
+        [id="circle-描述"] {
             margin-top: 1em;
         }
     </style>
 </head>
 
 <body>
-    <div id="八卦-wrapper">
-        <div id="八卦">
+    <div id="circle-wrapper">
+        <div id="circle">
             <div>
                 <!-- 黑色半圆 -->
             </div>
@@ -172,7 +172,7 @@
 
         </div>
 
-        <div id="八卦-描述">道可道，非常道</div>
+        <div id="circle-描述">道可道，非常道</div>
 
 
     </div>
